@@ -1,9 +1,9 @@
 .screen {
     background-color: #c8e6c2;
-    width: 550px;
-    height: 350px;
+    width: 560px;
+    height: 380px;
     margin: auto;
-    border-radius: 150px 150px 50px 50px;
+    border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em inset, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em inset, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
         height: 80px; 
         display: block;
         position: absolute;
-        bottom: 95px;
+        bottom: 101px;
         left: 95px;
     }
 /*     &__item--eat {

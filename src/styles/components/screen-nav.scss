@@ -1,0 +1,41 @@
+.menu {
+    display: block;
+    background-color: rgba(255,255,255,1);
+    color: #323232;
+    border-radius: 10px; 
+    padding: 10px;
+    position: absolute; 
+    right: 10px; 
+    bottom: 25px;
+&:before {
+    transform: rotate(-95deg);
+    border: 15px solid rgba(255,255,255,1);
+    content: '';
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 25px);
+}   
+&__title {
+    color: #3e9092;
+    font-size: 1.1rem;
+    font-weight: 600;
+
+}
+&__ul {
+    list-style-type: none;
+}
+&__li {
+    padding: 5px;
+}
+&__flecha {
+    color: #3e9092;
+    font-size: 0.8rem;
+}
+&__li:hover {
+    color: #4bb8ba;
+    cursor: pointer; 
+}
+}
