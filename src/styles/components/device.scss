@@ -1,38 +1,95 @@
-.screen-container {
-    background-color: #266a7d;
-    width: 600px;
-    height: 500px;
+.computer {
+    background-color: #adab9e;
+    width: 620px;
+    height: 480px;
     margin: 50px auto;
     border-radius: 20px;
-box-shadow: rgba(40, 117, 150, 0.4) 5px 5px, rgba(48, 96, 192, 0.3) 10px 10px, rgba(46, 166, 240, 0.2) 15px 15px, rgba(107, 139, 225, 0.1) 20px 20px, rgba(90, 112, 198, 0.05) 25px 25px;
-    padding-top: 20px;
-}
+    box-shadow: rgba(143, 144, 140, 0.4) 5px 5px, rgba(167, 165, 156, 0.3) 10px 10px, rgba(125, 122, 118, 0.183) 15px 15px, rgba(210, 211, 203, 0.1) 20px 20px;
+    padding-top: 30px;
+    position: relative;
 
+    &__deco {
+    background-color: #adab9e; 
+    box-shadow: rgba(143, 144, 140, 0.4) 5px 5px, rgba(167, 165, 156, 0.3) 10px 10px, rgba(125, 122, 118, 0.183) 15px 15px, rgba(210, 211, 203, 0.1) 20px 20px, inset rgba(95, 95, 95, 0.1) 0 4px 5px 6px;
+    width: 30px;
+    height: 380px;
+    display: block;
+    position: absolute;
+    right: -30px;
+    bottom: 30px;
+    border-radius: 0 40px 20px 0;
+    }
+}   
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &__left {
+        margin: 20px 0 0 30px;
+    }
+    &__button--small {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(155, 61, 61);
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        cursor: pointer;  
+        border: 1px solid #803030;
+        color: rgb(255, 255, 255, 0.4);
+    }
+}
 
 .screen-buttons {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     margin: auto;
+    margin-right: 30px; 
     gap: 15px;
     margin-top: 20px;
     &__button {
-        height: 50px;
-        width: 50px;
-        background-color: #81b932;
+        height: 30px;
+        width: 30px;
+        background-color: #cccfc9;
         border-radius: 50%;
         box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
         cursor: pointer;  
-        border: 1px solid #659227;
+        border: 1px solid #bdbdbd;
     }
     &__button:hover{
         transform: scale(105%);
     }
     &__img {
-        width: 30px;
+        width: 18px;
         height: auto;
-        margin: 10px;
+        margin: 5px auto;
     }
 }
 
+.section-deco {
+    position: relative;
+    &__top {
+        height: 50px;
+        width: 80px;
+        background-color: #adab9e;
+        margin: auto;
+        position: relative;
+        top: -50px;
+        box-shadow: rgba(143, 144, 140, 0.4) 5px 5px, rgba(167, 165, 156, 0.3) 10px 10px, rgba(125, 122, 118, 0.183) 15px 15px, rgba(210, 211, 203, 0.1) 20px 20px, inset rgba(95, 95, 95, 0.4) 0 5px 10px 0px;
+   }
+   &__bottom{
+        background-color: #9f9e92;
+        width: 200px;
+        height: 30px;
+        margin: auto;
+        position: relative; 
+        top: -50px;
+        border-radius: 5px 5px 1px 1px;
+        box-shadow: rgba(143, 144, 140, 0.4) 5px 5px, inset rgba(246, 246, 246, 0.2) 0 5px 10px 0px;
+
+   }
+
+
+}

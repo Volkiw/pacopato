@@ -33,13 +33,13 @@ let actions = [
                 {
                     food: "siesta de sofá",
                     id: "siesta",
-                    url: "/src/images/item-food.gif",
+                    url: "/src/images/item-sleep.gif",
                     action: "sleep",
                 },
                 {
                     food: "dormir la mona",
                     id: "dormir",
-                    url: "/src/images/item-food.gif",
+                    url: "/src/images/item-sleep.gif",
                     action: "sleep"
                 }
             ],
